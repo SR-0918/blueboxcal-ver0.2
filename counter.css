@@ -223,8 +223,8 @@ ul {
     cursor: pointer;
     width: 220px;
     position: relative;
-    top:80px;
-    right: 300px;
+    top: 20px;
+    left: 220px;
 }
 
 .inputbutton1 input[type="submit"]:active  {
@@ -1155,12 +1155,8 @@ ul {
     }
     
     .one{
-        float: none;
-        padding: initial;
-    }
-
-    .one li{
         float: left;
+        padding: initial;
     }
 
     .two{
