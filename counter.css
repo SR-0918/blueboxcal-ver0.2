@@ -434,3 +434,878 @@ ul {
   }
 
   /*解除したいやつ float:left tab*/
+  /*iphonex系 375px*/
+  @media screen and (max-width: 380px){ 
+
+    .spinner_area {
+        padding-top: 10px;
+    }
+
+    .spinner_area input{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 18px;
+        width: 150px;
+        vertical-align: middle;
+        /* デフォルトのスピナーを消す */
+        -webkit-appearance: none;
+        -moz-appearance:textfield;
+        padding: 8px;
+    }
+    
+    .spinner_area input[type="button"]{
+        cursor: pointer;
+        width: 80px;
+        padding: 8px;
+        background-color: #d6d3d3;
+        margin-top: 10px;
+    }
+    
+    .inputbutton1 input[type="submit"]{
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #fc943f;/*ボタン色*/
+        color: #fcfcfc;/*ボタン色より暗く*/
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+        border-bottom: solid 3px #627295;
+        border-radius: 3px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        width: 220px;
+        position: relative;
+        left:60px;
+    }
+    
+    .inputbutton1 input[type="submit"]:active  {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+        border-bottom: none;
+      }
+    
+    
+    .zero{
+        float: none;
+    }
+    
+    .zero p{
+        font-size: 12px;
+    }
+
+    .zero img {
+        width:100%;
+    }
+    
+    .one{
+        float: none;
+        padding: initial;
+        padding-left: 30px;
+    }
+    .two{
+        float: none;
+        padding: initial;
+        padding-left: 30px;
+    }
+    .three{
+        float: none;
+        padding: initial;
+        padding-left: 30px;
+    }
+
+    .spinner_area2{
+        padding-left: 0;
+    }
+    
+    .spinner_area2 input{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 18px;
+        width: 150px;
+        vertical-align: middle;
+        /* デフォルトのスピナーを消す */
+        -webkit-appearance: none;
+        -moz-appearance:textfield;
+        padding:8px;
+    }
+    
+    .spinner_area2 input[type="button"]{
+        cursor: pointer;
+        width:80px;
+        padding: 8px;
+        background-color: #d6d3d3;
+        margin-top: 10px;
+    }
+    
+    .inputbutton2 input[type="submit"]{
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #fc943f;/*ボタン色*/
+        color: #fcfcfc;/*ボタン色より暗く*/
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+        border-bottom: solid 3px #627295;
+        border-radius: 3px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        width: 220px;
+        position: relative;
+        left: 50px;
+        
+    }
+    
+    .inputbutton2 input[type="submit"]:active  {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+        border-bottom: none;
+      }
+    
+    .zero{
+        float: left;
+    }
+    
+    .zero p{
+        font-size: 12px;
+    }
+    
+    .glande-one{
+        float: none;
+        padding-right: 30px;
+    }
+    .glande-two{
+        float: none;
+        padding-right: 30px;
+    }
+    .glande-three{
+        float: none;
+        padding-right: 30px;
+    }
+    
+    .spinner_area3{
+        padding: 0;
+    }
+    
+    .spinner_area3 input{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 18px;
+        width: 150px;
+        vertical-align: middle;
+        /* デフォルトのスピナーを消す */
+        -webkit-appearance: none;
+        -moz-appearance:textfield;
+        padding: 8px;
+    }
+    
+    .spinner_area3 input[type="button"]{
+        cursor: pointer;
+        width: 80px;
+        padding: 8px;
+        background-color: #d6d3d3;
+        margin-top: 10px;
+    }
+    
+    .inputbutton3 input[type="submit"]{
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #fc943f;/*ボタン色*/
+        color: #fcfcfc;/*ボタン色より暗く*/
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+        border-bottom: solid 3px #627295;
+        border-radius: 3px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        width: 220px;
+        left:initial;
+        left:50px;
+        
+    }
+    
+    .inputbutton3 input[type="submit"]:active  {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+        border-bottom: none;
+      }
+    
+    .bahamut-one{
+        float: none;
+        padding: initial;
+        padding-left: 20px;
+        
+    }
+    .bahamut-two{
+        float: none;
+        padding: initial;
+        padding-left: 20px;
+    }
+  }
+
+  @media screen and (min-width: 381px) and (max-width:  468px){ 
+
+    .spinner_area {
+        padding-top: 10px;
+    }
+
+    .spinner_area input{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 18px;
+        width: 150px;
+        vertical-align: middle;
+        /* デフォルトのスピナーを消す */
+        -webkit-appearance: none;
+        -moz-appearance:textfield;
+        padding: 8px;
+    }
+    
+    .spinner_area input[type="button"]{
+        cursor: pointer;
+        width: 80px;
+        padding: 8px;
+        background-color: #d6d3d3;
+        margin-top: 10px;
+    }
+    
+    .inputbutton1 input[type="submit"]{
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #fc943f;/*ボタン色*/
+        color: #fcfcfc;/*ボタン色より暗く*/
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+        border-bottom: solid 3px #627295;
+        border-radius: 3px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        width: 220px;
+        position: relative;
+        left: 40px;
+    }
+    
+    .inputbutton1 input[type="submit"]:active  {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+        border-bottom: none;
+      }
+    
+    
+    .zero{
+        float: none;
+    }
+    
+    .zero p{
+        font-size: 12px;
+    }
+
+    .zero img {
+        width:100%;
+    }
+    
+    .one{
+        float: none;
+        padding: initial;
+        padding-right: 20px;
+        padding-left: 40px;
+    }
+    .two{
+        float: none;
+        padding: initial;
+        padding-right: 20px;
+        padding-left: 40px;
+    }
+    .three{
+        float: none;
+        padding: initial;
+        padding-right: 20px;
+        padding-left: 40px;
+    }
+
+    .spinner_area2{
+        padding-left: 0;
+    }
+    
+    .spinner_area2 input{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 18px;
+        width: 150px;
+        vertical-align: middle;
+        /* デフォルトのスピナーを消す */
+        -webkit-appearance: none;
+        -moz-appearance:textfield;
+        padding:8px;
+    }
+    
+    .spinner_area2 input[type="button"]{
+        cursor: pointer;
+        width:80px;
+        padding: 8px;
+        background-color: #d6d3d3;
+        margin-top: 10px;
+    }
+    
+    .inputbutton2 input[type="submit"]{
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #fc943f;/*ボタン色*/
+        color: #fcfcfc;/*ボタン色より暗く*/
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+        border-bottom: solid 3px #627295;
+        border-radius: 3px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        width: 220px;
+        position: relative;
+        left: 80px;
+    }
+    
+    .inputbutton2 input[type="submit"]:active  {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+        border-bottom: none;
+      }
+    
+    .zero{
+        float: left;
+    }
+    
+    .zero p{
+        font-size: 12px;
+    }
+    
+    .glande-one{
+        float: none;
+        padding: initial;
+        padding-left: 45px;
+        padding-right: 20px;
+    }
+    .glande-two{
+        float: none;
+        padding: initial;
+        padding-left: 45px;
+        padding-right: 20px;
+    }
+    .glande-three{
+        float: none;
+        padding: initial;
+        padding-left: 45px;
+        padding-right: 20px;
+    }
+    
+    .spinner_area3{
+        padding: 0;
+    }
+    
+    .spinner_area3 input{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 18px;
+        width: 150px;
+        vertical-align: middle;
+        /* デフォルトのスピナーを消す */
+        -webkit-appearance: none;
+        -moz-appearance:textfield;
+        padding: 8px;
+    }
+    
+    .spinner_area3 input[type="button"]{
+        cursor: pointer;
+        width: 80px;
+        padding: 8px;
+        background-color: #d6d3d3;
+        margin-top: 10px;
+    }
+    
+    .inputbutton3 input[type="submit"]{
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #fc943f;/*ボタン色*/
+        color: #fcfcfc;/*ボタン色より暗く*/
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+        border-bottom: solid 3px #627295;
+        border-radius: 3px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        width: 220px;
+        position: relative;
+        left: 75px;
+    }
+    
+    .inputbutton3 input[type="submit"]:active  {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+        border-bottom: none;
+      }
+    
+    .bahamut-one{
+        float: none;
+        padding: initial;
+        padding-left: 45px;
+        padding-right: 20px;
+        
+    }
+    .bahamut-two{
+        float: none;
+        padding: initial;
+        padding-left: 45px;
+        padding-right: 20px;
+    }
+  }
+
+  @media screen and (min-width: 469px) and (max-width:  599px){ 
+
+    .spinner_area {
+        padding-top: 10px;
+    }
+
+    .spinner_area input{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 18px;
+        width: 150px;
+        vertical-align: middle;
+        /* デフォルトのスピナーを消す */
+        -webkit-appearance: none;
+        -moz-appearance:textfield;
+        padding: 8px;
+    }
+    
+    .spinner_area input[type="button"]{
+        cursor: pointer;
+        width: 80px;
+        padding: 8px;
+        background-color: #d6d3d3;
+        margin-top: 10px;
+    }
+    
+    .inputbutton1 input[type="submit"]{
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #fc943f;/*ボタン色*/
+        color: #fcfcfc;/*ボタン色より暗く*/
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+        border-bottom: solid 3px #627295;
+        border-radius: 3px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        width: 220px;
+        position: relative;
+        left: 100px;    
+    }
+    
+    .inputbutton1 input[type="submit"]:active  {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+        border-bottom: none;
+      }
+    
+    
+    .zero{
+        float: none;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .zero p{
+        font-size: 12px;
+    }
+
+    .zero img {
+        width:100%;
+    }
+    
+    .one{
+        float: none;
+        padding: initial;
+        padding-right: 150px;
+        padding-left: 60px;
+    }
+    .two{
+        float: none;
+        padding: initial;
+        padding-right: 150px;
+        padding-left: 60px;
+    }
+
+    .three{
+        float: none;
+        padding: initial;
+        padding-right: 150px;
+        padding-left: 60px;
+    }
+
+    .spinner_area2{
+        padding-left: 0;
+    }
+    
+    .spinner_area2 input{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 18px;
+        width: 150px;
+        vertical-align: middle;
+        /* デフォルトのスピナーを消す */
+        -webkit-appearance: none;
+        -moz-appearance:textfield;
+        padding:8px;
+    }
+    
+    .spinner_area2 input[type="button"]{
+        cursor: pointer;
+        width:80px;
+        padding: 8px;
+        background-color: #d6d3d3;
+        margin-top: 10px;
+    }
+    
+    .inputbutton2 input[type="submit"]{
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #fc943f;/*ボタン色*/
+        color: #fcfcfc;/*ボタン色より暗く*/
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+        border-bottom: solid 3px #627295;
+        border-radius: 3px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        width: 220px;
+        position: relative;
+        left: 100px;
+    }
+    
+    .inputbutton2 input[type="submit"]:active  {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+        border-bottom: none;
+      }
+    
+    .zero{
+        float: left;
+    }
+    
+    .zero p{
+        font-size: 12px;
+    }
+    
+    .glande-one{
+        float: none;
+        padding: initial;
+        padding-right: 140px;
+        padding-left: 70px;
+    }
+    .glande-two{
+        float: none;
+        padding: initial;
+        padding-right: 140px;
+        padding-left: 70px;
+    }
+    .glande-three{
+        float: none;
+        padding: initial;
+        padding-right: 140px;
+        padding-left: 70px;
+    }
+    
+    .spinner_area3{
+        padding: 0;
+    }
+    
+    .spinner_area3 input{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 18px;
+        width: 150px;
+        vertical-align: middle;
+        /* デフォルトのスピナーを消す */
+        -webkit-appearance: none;
+        -moz-appearance:textfield;
+        padding: 8px;
+    }
+    
+    .spinner_area3 input[type="button"]{
+        cursor: pointer;
+        width: 80px;
+        padding: 8px;
+        background-color: #d6d3d3;
+        margin-top: 10px;
+    }
+    
+    .inputbutton3 input[type="submit"]{
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #fc943f;/*ボタン色*/
+        color: #fcfcfc;/*ボタン色より暗く*/
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+        border-bottom: solid 3px #627295;
+        border-radius: 3px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        width: 220px;
+        position: relative;
+        left: 100px;
+    }
+    
+    .inputbutton3 input[type="submit"]:active  {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+        border-bottom: none;
+      }
+    
+    .bahamut-one{
+        float: none;
+        padding: initial;
+        padding-right: 140px;
+        padding-left: 70px;
+    }
+    .bahamut-two{
+        float: none;
+        padding: initial;
+        padding-right: 140px;
+        padding-left: 70px;
+    }
+  }
+
+  @media screen and (min-width: 599px) and (max-width:  959px){ 
+
+    .spinner_area {
+        padding-top: 10px;
+    }
+
+    .spinner_area input{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 18px;
+        width: 100px;
+        vertical-align: middle;
+        /* デフォルトのスピナーを消す */
+        -webkit-appearance: none;
+        -moz-appearance:textfield;
+        padding: 8px;
+    }
+    
+    .spinner_area input[type="button"]{
+        cursor: pointer;
+        width: 50px;
+        padding: 8px;
+        background-color: #d6d3d3;
+        margin-top: 10px;
+    }
+    
+    .inputbutton1 input[type="submit"]{
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #fc943f;/*ボタン色*/
+        color: #fcfcfc;/*ボタン色より暗く*/
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+        border-bottom: solid 3px #627295;
+        border-radius: 3px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        width: 220px;
+        position: relative;
+        left: 40px;
+    }
+    
+    .inputbutton1 input[type="submit"]:active  {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+        border-bottom: none;
+      }
+    
+    
+    .zero{
+        float: none;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .zero p{
+        font-size: 12px;
+    }
+
+    .zero img {
+        width:100%;
+        height: 100%;
+    }
+    
+    .one{
+        float: none;
+        padding: initial;
+    }
+
+    .one li{
+        float: left;
+    }
+
+    .two{
+        float: none;
+        padding: initial;
+        padding-right: 150px;
+        padding-left: 130px;
+    }
+
+    .three{
+        float: none;
+        padding: initial;
+        padding-right: 150px;
+        padding-left: 130px;
+    }
+
+    .spinner_area2{
+        padding-left: 0;
+    }
+    
+    .spinner_area2 input{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 18px;
+        width: 150px;
+        vertical-align: middle;
+        /* デフォルトのスピナーを消す */
+        -webkit-appearance: none;
+        -moz-appearance:textfield;
+        padding:8px;
+    }
+    
+    .spinner_area2 input[type="button"]{
+        cursor: pointer;
+        width:80px;
+        padding: 8px;
+        background-color: #d6d3d3;
+        margin-top: 10px;
+    }
+    
+    .inputbutton2 input[type="submit"]{
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #fc943f;/*ボタン色*/
+        color: #fcfcfc;/*ボタン色より暗く*/
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+        border-bottom: solid 3px #627295;
+        border-radius: 3px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        width: 220px;
+        position: relative;
+        
+    }
+    
+    .inputbutton2 input[type="submit"]:active  {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+        border-bottom: none;
+      }
+    
+    .zero{
+        float: left;
+    }
+    
+    .zero p{
+        font-size: 12px;
+    }
+    
+    .glande-one{
+        float: none;
+        padding: initial;
+        
+    }
+    .glande-two{
+        float: none;
+        padding: initial;
+        
+    }
+    .glande-three{
+        float: none;
+        padding: initial;
+       
+    }
+    
+    .spinner_area3{
+        padding: 0;
+    }
+    
+    .spinner_area3 input{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 18px;
+        width: 150px;
+        vertical-align: middle;
+        /* デフォルトのスピナーを消す */
+        -webkit-appearance: none;
+        -moz-appearance:textfield;
+        padding: 8px;
+    }
+    
+    .spinner_area3 input[type="button"]{
+        cursor: pointer;
+        width: 80px;
+        padding: 8px;
+        background-color: #d6d3d3;
+        margin-top: 10px;
+    }
+    
+    .inputbutton3 input[type="submit"]{
+        display: inline-block;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #fc943f;/*ボタン色*/
+        color: #fcfcfc;/*ボタン色より暗く*/
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+        border-bottom: solid 3px #627295;
+        border-radius: 3px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        width: 220px;
+        position: relative;
+        
+    }
+    
+    .inputbutton3 input[type="submit"]:active  {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+        border-bottom: none;
+      }
+    
+    .bahamut-one{
+        float: none;
+        padding: initial;
+        
+    }
+    .bahamut-two{
+        float: none;
+        padding: initial;
+        
+    }
+
+  }

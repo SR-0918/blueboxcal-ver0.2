@@ -225,7 +225,7 @@ if(@$bahamut_eikan != 0){
         <p>2021/9/15 β版公開(結果に対するcsv出力などを今後追加予定)</p>
       </div>
       <form action = "#" method = "post">
-      <ul class = "one">
+        <ul class = "one">
           <li>
             <table>
               <td><img src = "blueboxcounter_img/hihi.png" width = "100px" height = "100px"></td>
@@ -353,9 +353,8 @@ if(@$bahamut_eikan != 0){
               </td>
             </table>
           </li>
-          <div class = "inputbutton1"><input type = "submit" name = "postButton1" value = "計算する"></div>
         </ul>
-        
+        <div class = "inputbutton1"><input type = "submit" name = "postButton1" value = "計算する"></div>
       </form>
     </div>
   </div>
